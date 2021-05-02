@@ -1,0 +1,201 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e5e5e5;
+    color:#000000;
+}
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: navy;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #0077b6;
+}
+
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+ display:flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+}
+
+
+.leftside{
+    float: left;
+    text-align: center;
+    padding: 0.5rem;    
+    text-decoration: none;
+    background: white;
+    width: 200px;
+    padding: 1rem;
+    height: 800px;
+    margin-right: 1rem;
+    
+}
+
+.rightside{
+    float: left;
+    flex-basis: 60%;
+    text-align: left;
+    margin-top: 3.75rem;
+    padding-left:1rem;
+}
+
+
+
+
+.clearfix {
+    overflow: auto;
+  }
+
+
+
+
+
+  table{
+      table-layout: auto;
+  }
+
+  th{
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  td{
+      border: solid red;
+      padding: 1.5rem;
+      text-align: center;
+  }
+
+ .table_row {
+      background-color:#bee1e6;
+      margin: auto;
+      padding: 2rem;
+  }
+  
+
+
+
+  td{
+      border: red 1rem;
+  }
+
+
+
+
+  .header
+  {
+    display: block;
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+  }
+  .header h1{
+      display: inline-block;
+    
+  }
+
+
+
+
+
+
+
+
+ul{
+    list-style-type: none;
+    margin: auto;
+ 
+}
+
+li{
+
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+
+
+footer {
+  clear: both;
+  border-top: 1px solid #0077b6;
+  padding: 1rem 0 3rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+
+footer ul{
+    direction: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li{
+    display: inline-block;
+
+}
+
+
+
+.order_form{
+    display: block;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 22px;
+  }
+  
+  label {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+
+  .exp{
+    margin: auto;
+    padding-left: 40px;
+    padding-bottom: 7rem;
+    background-color:#bee1e6;
+    display: block;
+    float: right;
+    font-size: 14px;
+  }
+
+ .submitbtn{
+     text-align: center;
+     display: block;
+     padding: 1rem;
+ }
+
+
+ .socialmedia{
+    float: left;
+    display: block;
+ }
